@@ -1,0 +1,126 @@
+/*黑色區塊*/
+.main_black {
+  display: flex;
+  align-items: center;
+  margin-top: 360px;
+  background-color: black;
+  padding: 5% 8% 5% 8%;
+  color: aliceblue;
+  font-size: 1.5rem;
+  max-width:2000px;
+}
+
+@media screen and (max-width: 766px) {
+  .main_black {
+    flex-direction: column;
+  }
+}
+
+.main_black_title {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.main_black_text-aside {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  //margin-right: 4%;
+}
+
+img[src$='baby.gif'] {
+  width: 500px;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 1120px) {
+  img[src $= 'baby.gif'] {
+    width:400px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  img[src $= 'baby.gif'] {
+    width:300px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main_black_text-aside {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  img[src $= 'baby.gif'] {
+    width: 350px;
+  }
+}
+/*白色區塊*/
+.main_row_white {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 5% 8% 5% 8%;
+}
+.row_white_title { font-size: 2rem; }
+
+.row_white_container { font-size: 1.5rem; }
+
+.main_row_white_picture img {
+  width: 250px;
+}
+
+img[src *= "animal3"] { width: 515px; }
+
+.animal1, .animal2, .animal3 {
+  margin-right: 15px;
+}
+
+.main_row_white_picture {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width: 550px;
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 1120px) {
+  .main_row_white_picture img {
+    width: 200px;
+  }
+  
+  img[src *= "animal3"] { width: 410px; }
+  
+  .animal1, .animal2, .animal3 {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .main_row_white_picture img {
+    width: 150px;
+  }
+  
+  img[src *= "animal3"] { width: 310px; }
+  
+  .animal1, .animal2, .animal3 {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main_row_white {
+    flex-direction: column;
+  }
+
+  .main_row_white_picture {
+    margin-bottom: 20px;
+    margin-right: 0%;
+    justify-content: center;
+  }
+
+  .main_row_white_picture img {
+    width: 350px;
+    margin-right: 0%;
+  }
+}

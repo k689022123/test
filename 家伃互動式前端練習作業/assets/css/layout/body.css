@@ -1,0 +1,13 @@
+* {
+  text-decoration: none;
+}
+
+body {
+  letter-spacing: 1px;
+  line-height: 1.5;
+  background-image: url('../../images/dog.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+nav a {
+  color: white;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 80%;
+  height: 180px;
+  margin: 10px 10%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: x-large;
+  color: white;
+  padding-top: 20px;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+.nav_logo {
+  display: flex;
+  flex: 1;
+}
+
+.nav_logo a:hover {
+  color: crimson;
+}
+
+.nav_link {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_link li:hover {
+  color: crimson;
+  transition: 300ms;
+  border-bottom: 3px solid yellow;
+}
+
+.nav_link a:hover {
+  color: crimson;
+  transition: 500ms;
+  border-bottom: 3px solid yellow;
+}
+
+.nav_link_sass_list:hover .sass_link_list {
+  display: flex;
+}
+
+.sass_link_list {
+  display: none;
+  text-align: center;
+  flex-direction: column;
+  line-height: 2rem;
+}
+
+.sass_link_list li {
+  display: inline-block;
+  background-color: #e1a77d;
+  justify-content: center;
+  padding: 2px 5px;
+}
+
+.nav_link_sass4_list:hover .sass4_link_list {
+  display: flex;
+}
+
+.sass4_link_list {
+  display: none;
+  text-align: center;
+  flex-direction: column;
+  line-height: 2rem;
+}
+
+.sass4_link_list li {
+  display: inline-block;
+  background-color: #e1a77d;
+  justify-content: center;
+  padding: 2px 5px;
+}
+
+.nav_link_javascript_list:hover .javascript_link_list {
+  display: flex;
+}
+
+.javascript_link_list {
+  display: none;
+  text-align: center;
+  flex-direction: column;
+  line-height: 2rem;
+}
+
+.javascript_link_list li {
+  display: inline-block;
+  background-color: #e1a77d;
+  justify-content: center;
+  padding: 2px 5px;
+}
+
+.nav_button li {
+  background-color: #ffe4c4;
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 30px;
+
+  display: inline-block;
+  transition: transform 300ms;
+  padding: 10px 30px;
+}
+
+.nav_button a:hover {
+  color: crimson;
+  transition: 50px right 300ms;
+}
